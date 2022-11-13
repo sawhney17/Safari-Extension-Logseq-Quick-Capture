@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8C3CCE29218AA600AFC789 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CC929218AA500AFC789 /* popup.css */; };
+		BC8C3CCF29218AA600AFC789 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CC929218AA500AFC789 /* popup.css */; };
+		BC8C3CD029218AA600AFC789 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CC929218AA500AFC789 /* popup.css */; };
+		BC8C3CD129218AA600AFC789 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CC929218AA500AFC789 /* popup.css */; };
+		BC8C3CD229218AA600AFC789 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCA29218AA500AFC789 /* background.js */; };
+		BC8C3CD329218AA600AFC789 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCA29218AA500AFC789 /* background.js */; };
+		BC8C3CD429218AA600AFC789 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCA29218AA500AFC789 /* background.js */; };
+		BC8C3CD529218AA600AFC789 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCA29218AA500AFC789 /* background.js */; };
+		BC8C3CD629218AA600AFC789 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCB29218AA500AFC789 /* popup.js */; };
+		BC8C3CD729218AA600AFC789 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCB29218AA500AFC789 /* popup.js */; };
+		BC8C3CD829218AA600AFC789 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCB29218AA500AFC789 /* popup.js */; };
+		BC8C3CD929218AA600AFC789 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCB29218AA500AFC789 /* popup.js */; };
+		BC8C3CDA29218AA600AFC789 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCC29218AA500AFC789 /* content.js */; };
+		BC8C3CDB29218AA600AFC789 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCC29218AA500AFC789 /* content.js */; };
+		BC8C3CDC29218AA600AFC789 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCC29218AA500AFC789 /* content.js */; };
+		BC8C3CDD29218AA600AFC789 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCC29218AA500AFC789 /* content.js */; };
+		BC8C3CDE29218AA600AFC789 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCD29218AA500AFC789 /* popup.html */; };
+		BC8C3CDF29218AA600AFC789 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCD29218AA500AFC789 /* popup.html */; };
+		BC8C3CE029218AA600AFC789 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCD29218AA500AFC789 /* popup.html */; };
+		BC8C3CE129218AA600AFC789 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BC8C3CCD29218AA500AFC789 /* popup.html */; };
+		BCEB4408291ED0B300243267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4407291ED0B300243267 /* AppDelegate.swift */; };
+		BCEB440A291ED0B300243267 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4409291ED0B300243267 /* SceneDelegate.swift */; };
+		BCEB440D291ED0B300243267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEB440B291ED0B300243267 /* LaunchScreen.storyboard */; };
+		BCEB4410291ED0B300243267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEB440E291ED0B300243267 /* Main.storyboard */; };
+		BCEB4419291ED0B300243267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4418291ED0B300243267 /* AppDelegate.swift */; };
+		BCEB441C291ED0B300243267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEB441A291ED0B300243267 /* Main.storyboard */; };
+		BCEB4424291ED0B300243267 /* Logseq Quick Capture Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BCEB4423291ED0B300243267 /* Logseq Quick Capture Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCEB442E291ED0B300243267 /* Logseq Quick Capture Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BCEB442D291ED0B300243267 /* Logseq Quick Capture Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCEB4434291ED0B300243267 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43F7291ED0B200243267 /* Main.html */; };
+		BCEB4435291ED0B300243267 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43F7291ED0B200243267 /* Main.html */; };
+		BCEB4436291ED0B300243267 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43F9291ED0B200243267 /* Icon.png */; };
+		BCEB4437291ED0B300243267 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43F9291ED0B200243267 /* Icon.png */; };
+		BCEB4438291ED0B300243267 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43FA291ED0B200243267 /* Style.css */; };
+		BCEB4439291ED0B300243267 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43FA291ED0B200243267 /* Style.css */; };
+		BCEB443A291ED0B300243267 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43FB291ED0B200243267 /* Script.js */; };
+		BCEB443B291ED0B300243267 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43FB291ED0B200243267 /* Script.js */; };
+		BCEB443C291ED0B300243267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB43FC291ED0B200243267 /* ViewController.swift */; };
+		BCEB443D291ED0B300243267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB43FC291ED0B200243267 /* ViewController.swift */; };
+		BCEB443E291ED0B300243267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43FD291ED0B300243267 /* Assets.xcassets */; };
+		BCEB443F291ED0B300243267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEB43FD291ED0B300243267 /* Assets.xcassets */; };
+		BCEB4440291ED0B300243267 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB43FF291ED0B300243267 /* SafariWebExtensionHandler.swift */; };
+		BCEB4441291ED0B300243267 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB43FF291ED0B300243267 /* SafariWebExtensionHandler.swift */; };
+		BCEB445E291ED0B300243267 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BCEB4457291ED0B300243267 /* icons */; };
+		BCEB445F291ED0B300243267 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BCEB4458291ED0B300243267 /* manifest.json */; };
+		BCEB4465291ED0B300243267 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BCEB4457291ED0B300243267 /* icons */; };
+		BCEB4466291ED0B300243267 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BCEB4458291ED0B300243267 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCEB4425291ED0B300243267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEB43F1291ED0B200243267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEB4422291ED0B300243267;
+			remoteInfo = "Logseq Quick Capture Extension (iOS)";
+		};
+		BCEB442F291ED0B300243267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEB43F1291ED0B200243267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEB442C291ED0B300243267;
+			remoteInfo = "Logseq Quick Capture Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCEB4447291ED0B300243267 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCEB4424291ED0B300243267 /* Logseq Quick Capture Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB444E291ED0B300243267 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCEB442E291ED0B300243267 /* Logseq Quick Capture Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC8C3CC929218AA500AFC789 /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		BC8C3CCA29218AA500AFC789 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		BC8C3CCB29218AA500AFC789 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		BC8C3CCC29218AA500AFC789 /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		BC8C3CCD29218AA500AFC789 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		BCEB43F8291ED0B200243267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		BCEB43F9291ED0B200243267 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BCEB43FA291ED0B200243267 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BCEB43FB291ED0B200243267 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BCEB43FC291ED0B200243267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCEB43FD291ED0B300243267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCEB43FF291ED0B300243267 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BCEB4404291ED0B300243267 /* Logseq Quick Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logseq Quick Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEB4407291ED0B300243267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCEB4409291ED0B300243267 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCEB440C291ED0B300243267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCEB440F291ED0B300243267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEB4411291ED0B300243267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEB4416291ED0B300243267 /* Logseq Quick Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logseq Quick Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEB4418291ED0B300243267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCEB441B291ED0B300243267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEB441D291ED0B300243267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEB441E291ED0B300243267 /* Logseq Quick Capture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Logseq Quick Capture.entitlements"; sourceTree = "<group>"; };
+		BCEB4423291ED0B300243267 /* Logseq Quick Capture Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Logseq Quick Capture Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEB4428291ED0B300243267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEB442D291ED0B300243267 /* Logseq Quick Capture Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Logseq Quick Capture Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEB4432291ED0B300243267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEB4433291ED0B300243267 /* Logseq Quick Capture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Logseq Quick Capture.entitlements"; sourceTree = "<group>"; };
+		BCEB4457291ED0B300243267 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../../chrome-extension-logseq-quickcapture/icons"; sourceTree = "<group>"; };
+		BCEB4458291ED0B300243267 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../chrome-extension-logseq-quickcapture/manifest.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEB4401291ED0B300243267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB4413291ED0B300243267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB4420291ED0B300243267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB442A291ED0B300243267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEB43F0291ED0B200243267 = {
+			isa = PBXGroup;
+			children = (
+				BCEB43F5291ED0B200243267 /* Shared (App) */,
+				BCEB43FE291ED0B300243267 /* Shared (Extension) */,
+				BCEB4406291ED0B300243267 /* iOS (App) */,
+				BCEB4417291ED0B300243267 /* macOS (App) */,
+				BCEB4427291ED0B300243267 /* iOS (Extension) */,
+				BCEB4431291ED0B300243267 /* macOS (Extension) */,
+				BCEB4405291ED0B300243267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEB43F5291ED0B200243267 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB43FC291ED0B200243267 /* ViewController.swift */,
+				BCEB43FD291ED0B300243267 /* Assets.xcassets */,
+				BCEB43F6291ED0B200243267 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		BCEB43F6291ED0B200243267 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB43F7291ED0B200243267 /* Main.html */,
+				BCEB43F9291ED0B200243267 /* Icon.png */,
+				BCEB43FA291ED0B200243267 /* Style.css */,
+				BCEB43FB291ED0B200243267 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCEB43FE291ED0B300243267 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4452291ED0B300243267 /* Resources */,
+				BCEB43FF291ED0B300243267 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		BCEB4405291ED0B300243267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4404291ED0B300243267 /* Logseq Quick Capture.app */,
+				BCEB4416291ED0B300243267 /* Logseq Quick Capture.app */,
+				BCEB4423291ED0B300243267 /* Logseq Quick Capture Extension.appex */,
+				BCEB442D291ED0B300243267 /* Logseq Quick Capture Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEB4406291ED0B300243267 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4407291ED0B300243267 /* AppDelegate.swift */,
+				BCEB4409291ED0B300243267 /* SceneDelegate.swift */,
+				BCEB440B291ED0B300243267 /* LaunchScreen.storyboard */,
+				BCEB440E291ED0B300243267 /* Main.storyboard */,
+				BCEB4411291ED0B300243267 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		BCEB4417291ED0B300243267 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4418291ED0B300243267 /* AppDelegate.swift */,
+				BCEB441A291ED0B300243267 /* Main.storyboard */,
+				BCEB441D291ED0B300243267 /* Info.plist */,
+				BCEB441E291ED0B300243267 /* Logseq Quick Capture.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		BCEB4427291ED0B300243267 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4428291ED0B300243267 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BCEB4431291ED0B300243267 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4432291ED0B300243267 /* Info.plist */,
+				BCEB4433291ED0B300243267 /* Logseq Quick Capture.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BCEB4452291ED0B300243267 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB4457291ED0B300243267 /* icons */,
+				BCEB4458291ED0B300243267 /* manifest.json */,
+				BC8C3CCA29218AA500AFC789 /* background.js */,
+				BC8C3CCC29218AA500AFC789 /* content.js */,
+				BC8C3CC929218AA500AFC789 /* popup.css */,
+				BC8C3CCD29218AA500AFC789 /* popup.html */,
+				BC8C3CCB29218AA500AFC789 /* popup.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEB4403291ED0B300243267 /* Logseq Quick Capture (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEB4448291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture (iOS)" */;
+			buildPhases = (
+				BCEB4400291ED0B300243267 /* Sources */,
+				BCEB4401291ED0B300243267 /* Frameworks */,
+				BCEB4402291ED0B300243267 /* Resources */,
+				BCEB4447291ED0B300243267 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEB4426291ED0B300243267 /* PBXTargetDependency */,
+			);
+			name = "Logseq Quick Capture (iOS)";
+			productName = "Logseq Quick Capture (iOS)";
+			productReference = BCEB4404291ED0B300243267 /* Logseq Quick Capture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCEB4415291ED0B300243267 /* Logseq Quick Capture (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEB444F291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture (macOS)" */;
+			buildPhases = (
+				BCEB4412291ED0B300243267 /* Sources */,
+				BCEB4413291ED0B300243267 /* Frameworks */,
+				BCEB4414291ED0B300243267 /* Resources */,
+				BCEB444E291ED0B300243267 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEB4430291ED0B300243267 /* PBXTargetDependency */,
+			);
+			name = "Logseq Quick Capture (macOS)";
+			productName = "Logseq Quick Capture (macOS)";
+			productReference = BCEB4416291ED0B300243267 /* Logseq Quick Capture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCEB4422291ED0B300243267 /* Logseq Quick Capture Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEB4444291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture Extension (iOS)" */;
+			buildPhases = (
+				BCEB441F291ED0B300243267 /* Sources */,
+				BCEB4420291ED0B300243267 /* Frameworks */,
+				BCEB4421291ED0B300243267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logseq Quick Capture Extension (iOS)";
+			productName = "Logseq Quick Capture Extension (iOS)";
+			productReference = BCEB4423291ED0B300243267 /* Logseq Quick Capture Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BCEB442C291ED0B300243267 /* Logseq Quick Capture Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEB444B291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture Extension (macOS)" */;
+			buildPhases = (
+				BCEB4429291ED0B300243267 /* Sources */,
+				BCEB442A291ED0B300243267 /* Frameworks */,
+				BCEB442B291ED0B300243267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logseq Quick Capture Extension (macOS)";
+			productName = "Logseq Quick Capture Extension (macOS)";
+			productReference = BCEB442D291ED0B300243267 /* Logseq Quick Capture Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEB43F1291ED0B200243267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BCEB4403291ED0B300243267 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BCEB4415291ED0B300243267 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BCEB4422291ED0B300243267 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BCEB442C291ED0B300243267 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = BCEB43F4291ED0B200243267 /* Build configuration list for PBXProject "Logseq Quick Capture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCEB43F0291ED0B200243267;
+			productRefGroup = BCEB4405291ED0B300243267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEB4403291ED0B300243267 /* Logseq Quick Capture (iOS) */,
+				BCEB4415291ED0B300243267 /* Logseq Quick Capture (macOS) */,
+				BCEB4422291ED0B300243267 /* Logseq Quick Capture Extension (iOS) */,
+				BCEB442C291ED0B300243267 /* Logseq Quick Capture Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEB4402291ED0B300243267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB4436291ED0B300243267 /* Icon.png in Resources */,
+				BC8C3CDE29218AA600AFC789 /* popup.html in Resources */,
+				BC8C3CDA29218AA600AFC789 /* content.js in Resources */,
+				BCEB440D291ED0B300243267 /* LaunchScreen.storyboard in Resources */,
+				BCEB4434291ED0B300243267 /* Main.html in Resources */,
+				BCEB443A291ED0B300243267 /* Script.js in Resources */,
+				BC8C3CD229218AA600AFC789 /* background.js in Resources */,
+				BC8C3CCE29218AA600AFC789 /* popup.css in Resources */,
+				BCEB443E291ED0B300243267 /* Assets.xcassets in Resources */,
+				BC8C3CD629218AA600AFC789 /* popup.js in Resources */,
+				BCEB4410291ED0B300243267 /* Main.storyboard in Resources */,
+				BCEB4438291ED0B300243267 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB4414291ED0B300243267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8C3CD329218AA600AFC789 /* background.js in Resources */,
+				BCEB4437291ED0B300243267 /* Icon.png in Resources */,
+				BC8C3CCF29218AA600AFC789 /* popup.css in Resources */,
+				BCEB4439291ED0B300243267 /* Style.css in Resources */,
+				BC8C3CDB29218AA600AFC789 /* content.js in Resources */,
+				BC8C3CDF29218AA600AFC789 /* popup.html in Resources */,
+				BC8C3CD729218AA600AFC789 /* popup.js in Resources */,
+				BCEB441C291ED0B300243267 /* Main.storyboard in Resources */,
+				BCEB443B291ED0B300243267 /* Script.js in Resources */,
+				BCEB443F291ED0B300243267 /* Assets.xcassets in Resources */,
+				BCEB4435291ED0B300243267 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB4421291ED0B300243267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8C3CE029218AA600AFC789 /* popup.html in Resources */,
+				BC8C3CDC29218AA600AFC789 /* content.js in Resources */,
+				BCEB4465291ED0B300243267 /* icons in Resources */,
+				BC8C3CD429218AA600AFC789 /* background.js in Resources */,
+				BC8C3CD029218AA600AFC789 /* popup.css in Resources */,
+				BCEB4466291ED0B300243267 /* manifest.json in Resources */,
+				BC8C3CD829218AA600AFC789 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB442B291ED0B300243267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8C3CE129218AA600AFC789 /* popup.html in Resources */,
+				BC8C3CDD29218AA600AFC789 /* content.js in Resources */,
+				BCEB445E291ED0B300243267 /* icons in Resources */,
+				BC8C3CD529218AA600AFC789 /* background.js in Resources */,
+				BC8C3CD129218AA600AFC789 /* popup.css in Resources */,
+				BCEB445F291ED0B300243267 /* manifest.json in Resources */,
+				BC8C3CD929218AA600AFC789 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEB4400291ED0B300243267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB443C291ED0B300243267 /* ViewController.swift in Sources */,
+				BCEB4408291ED0B300243267 /* AppDelegate.swift in Sources */,
+				BCEB440A291ED0B300243267 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB4412291ED0B300243267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB443D291ED0B300243267 /* ViewController.swift in Sources */,
+				BCEB4419291ED0B300243267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB441F291ED0B300243267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB4440291ED0B300243267 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB4429291ED0B300243267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB4441291ED0B300243267 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCEB4426291ED0B300243267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEB4422291ED0B300243267 /* Logseq Quick Capture Extension (iOS) */;
+			targetProxy = BCEB4425291ED0B300243267 /* PBXContainerItemProxy */;
+		};
+		BCEB4430291ED0B300243267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEB442C291ED0B300243267 /* Logseq Quick Capture Extension (macOS) */;
+			targetProxy = BCEB442F291ED0B300243267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCEB43F7291ED0B200243267 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEB43F8291ED0B200243267 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BCEB440B291ED0B300243267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEB440C291ED0B300243267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEB440E291ED0B300243267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEB440F291ED0B300243267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEB441A291ED0B300243267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEB441B291ED0B300243267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEB4442291ED0B300243267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCEB4443291ED0B300243267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BCEB4445291ED0B300243267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture.Extension";
+				PRODUCT_NAME = "Logseq Quick Capture Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEB4446291ED0B300243267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture.Extension";
+				PRODUCT_NAME = "Logseq Quick Capture Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEB4449291ED0B300243267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture";
+				PRODUCT_NAME = "Logseq Quick Capture";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEB444A291ED0B300243267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture";
+				PRODUCT_NAME = "Logseq Quick Capture";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEB444C291ED0B300243267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Logseq Quick Capture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture.Extension";
+				PRODUCT_NAME = "Logseq Quick Capture Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BCEB444D291ED0B300243267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Logseq Quick Capture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture.Extension";
+				PRODUCT_NAME = "Logseq Quick Capture Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BCEB4450291ED0B300243267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Logseq Quick Capture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture";
+				PRODUCT_NAME = "Logseq Quick Capture";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BCEB4451291ED0B300243267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Logseq Quick Capture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Logseq Quick Capture";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Logseq-Quick-Capture";
+				PRODUCT_NAME = "Logseq Quick Capture";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEB43F4291ED0B200243267 /* Build configuration list for PBXProject "Logseq Quick Capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEB4442291ED0B300243267 /* Debug */,
+				BCEB4443291ED0B300243267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEB4444291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEB4445291ED0B300243267 /* Debug */,
+				BCEB4446291ED0B300243267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEB4448291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEB4449291ED0B300243267 /* Debug */,
+				BCEB444A291ED0B300243267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEB444B291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEB444C291ED0B300243267 /* Debug */,
+				BCEB444D291ED0B300243267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEB444F291ED0B300243267 /* Build configuration list for PBXNativeTarget "Logseq Quick Capture (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEB4450291ED0B300243267 /* Debug */,
+				BCEB4451291ED0B300243267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEB43F1291ED0B200243267 /* Project object */;
+}
